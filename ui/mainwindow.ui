@@ -32,12 +32,19 @@
           </property>
          </widget>
         </item>
+        <item>
+         <widget class="QPushButton" name="addButton">
+          <property name="text">
+           <string>Add</string>
+          </property>
+         </widget>
+        </item>
        </layout>
       </item>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_3">
         <item>
-         <widget class="QTableView" name="songTable"/>
+         <widget class="QTableWidget" name="songTable"/>
         </item>
        </layout>
       </item>
@@ -90,6 +97,13 @@
           <widget class="QGroupBox" name="groupBox_4">
            <property name="title">
             <string>Genres</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="closeBtn">
+           <property name="text">
+            <string>Close</string>
            </property>
           </widget>
          </item>

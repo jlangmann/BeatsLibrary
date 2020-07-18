@@ -16,6 +16,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    src/addsongwidget.cpp \
     src/library.cpp \
     src/main.cpp \
     src/mainwindow.cpp \
@@ -23,12 +24,15 @@ SOURCES += \
     src/tag.cpp
 
 HEADERS += \
+    include/addsongwidget.h \
     include/library.h \
     include/mainwindow.h \
     include/song.h \
-    include/tag.h
+    include/tag.h \
+    src/addSongwidget.h
 
 FORMS += \
+    ui/addsongwidget.ui \
     ui/mainwindow.ui
 
 TRANSLATIONS += \
